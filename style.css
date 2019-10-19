@@ -1,0 +1,197 @@
+* {
+	text-decoration: none;
+	font-family: arial;
+}
+
+body {
+	margin: 0;
+}
+
+.persoon {
+	width: 30px;
+	
+}
+
+.rechts {
+	position: absolute;
+  	top: 25px;
+  	right: 110px;
+}
+
+.fotorechts {
+	position: absolute;
+  	top: 20px;
+  	right: 40px;
+}
+
+.gmail {
+	height: 40px;
+	width: auto;
+	border: none;
+	cursor: pointer;
+	margin: 8px;
+	font-size: 14px;
+	color: black;
+}
+
+.images {
+	height: 40px;
+	width: auto;
+	border: none;
+	cursor: pointer;
+	margin: 8px;
+	font-size: 14px;
+	color: black;
+}
+
+.pop {
+	border: none;
+}
+
+
+.container {
+	text-align: center;
+}
+
+.g {
+	margin-top: 13%;
+}
+
+input {
+	width: 575px;
+	height: 25px;
+	margin: 4px;
+	padding: 8px;
+	border: 1px solid grey;
+	border-radius: 25px;
+	border-color: lightgrey;
+	margin-top: 23px;
+}
+
+input:hover {
+	box-shadow: 0px 2px 8px rgba(115, 115, 115, .5);
+}
+
+.gmail:hover {
+	text-decoration: underline;
+	color: #595959;
+}
+
+.images:hover {
+	text-decoration: underline;
+	color: #595959;
+}
+
+.btn1 {
+	height: 40px;
+	width: auto;
+	color: #646464;
+	background: #F2F2F2;
+	border: none;
+	cursor: pointer;
+	margin: 6px;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+
+.btn2 {
+	height: 40px;
+	width: auto;
+	color: #646464;
+	background: #F2F2F2;
+	border: none;
+	cursor: pointer;
+	margin: 6px;
+	border-radius: 5px;
+}
+
+.btn1:hover, .btn2:hover {
+	color: #373737;
+	background: #D3D3D3;
+	border: .5px solid lightgrey;
+}
+
+.midden {
+	text-align: center;
+	font-size: 13px;
+}
+
+.tomtom:hover {
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 10px 0px;
+	position: fixed;
+	bottom: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d9;
+}
+
+.leuk {
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 10px 0px;
+	position: fixed;
+	bottom: 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d9d9d9;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+.rechtse:hover {
+	text-decoration: underline;
+}
+
+.telefoon {
+	margin-left: 30px;
+	font-size: 15px;
+	color: #808080;
+}
+
+.jimi {
+	margin-left: 30px;
+	font-size: 15px;
+	color: #808080;
+}
+
+.lefty {
+	text-decoration-color: none;
+	float: left;
+	margin: 0;
+}
+
+li a {
+  display: block;
+  color: #808080;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.rechtse {
+  text-decoration-color: none;
+	float: right;
+	margin: 0;
+	display: block;
+  	color: #808080;
+  	text-align: center;
+  	padding: 0px;
+  	text-decoration: none;
+  	margin-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
